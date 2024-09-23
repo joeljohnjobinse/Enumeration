@@ -50,7 +50,7 @@ link: This operator allows you to search for pages that link to a specific URL. 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
  
-#DNS Enumeration
+##DNS Enumeration
 
 
 ##DNS Recon
@@ -59,15 +59,28 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
+
 ## OUTPUT:
+### Google Hacking
+![exp3_1](https://github.com/user-attachments/assets/e0adab32-6c9f-4dc7-8aa2-7865c7faa7d2)
+![exp3_2](https://github.com/user-attachments/assets/c34e89ad-8ce8-4233-ab2f-175a7e6a7fcb)
+![exp3_3](https://github.com/user-attachments/assets/4e61ce75-89cd-47a9-bb5f-59a83bdfefdd)
+![exp3_4](https://github.com/user-attachments/assets/f07482e4-0e2f-4703-90b2-c64919cf4a42)
+![exp3_5](https://github.com/user-attachments/assets/bdc870fb-78f1-4585-8a96-5c84cab5f6af)
+![exp3_6](https://github.com/user-attachments/assets/09245979-690a-49de-bffb-08b81dcea854)
+![exp3_7](https://github.com/user-attachments/assets/b1784b8d-b9fe-4703-8aa2-2b3cc383376c)
+### dnsrecon
+![exp3_8](https://github.com/user-attachments/assets/d523e05d-1c8e-4b06-9608-8fdbf05ae42f)
+
+![exp3_9](https://github.com/user-attachments/assets/480e51e4-bef7-4a60-8650-4c189699373c)
+### dnsenum
+![exp3_10](https://github.com/user-attachments/assets/6da387c4-e419-45b7-a3c8-655a54b74f43)
 
 
 
 
 
-
-
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
